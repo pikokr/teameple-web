@@ -5,6 +5,9 @@ pre#catchphrase {
     text-align: center;
     font-size: 70px;
 }
+pre1 {
+    font-size: 90px;
+}
 
 div.main-container{
     display: grid;

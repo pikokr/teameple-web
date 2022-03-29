@@ -1,16 +1,61 @@
 section {
     border: 1px solid;
-    float: left;
-    width: 33%;
+    width: 210px;
+    height: 308.12px;
 }
 
-section#sefirot-section{
-    margin-right: 5%;
+div.section-container {
+    place-items: center;
+    min-height: 100vh;
+    display: grid;
 }
 
-botName {
+div.align-container {
+    display: inline-flex;
+}
+
+div#circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 70%;
+    overflow: hidden;
+}
+
+section#sefirot-section {
+    margin-right: 81px;
+    text-align: center;
+}
+img#sefi-profileImg {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+section#pia-section {
+    text-align: center;
+}
+img#pia-profileImg {
+
+}
+
+p {
+    margin: 0%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+p#botName {
     font-size: 30px;
+    font-weight: 700;
 }
-description {
-    
+
+p#botDescription {
+    font-size: 14px;
+    padding: 20px;
+    font-weight: 500;
+}
+
+p#botInviteLink {
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 700;
 }
