@@ -3,5 +3,9 @@ function sefirot() {
 };
 
 function pia() {
-    window.alert('아직 개발 중 입니다! 곧 돌아올게요!');
+    window.alert('아직 준비 중 입니다! 곧 돌아올게요!');
 };
+
+function report() {
+    window.alert('아직 준비 중 입니다! 곧 돌아올게요!');
+}
