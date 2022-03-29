@@ -1,0 +1,16 @@
+section {
+    border: 1px solid;
+    float: left;
+    width: 33%;
+}
+
+section#sefirot-section{
+    margin-right: 5%;
+}
+
+botName {
+    font-size: 30px;
+}
+description {
+    
+}

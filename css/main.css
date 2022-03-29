@@ -1,0 +1,60 @@
+pre#catchphrase {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    margin : 0;
+    text-align: center;
+    font-size: 70px;
+}
+
+div.main-container{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+div#scroll-down{
+    z-index: 11;
+    position: absolute;
+    width: 42px;
+    height: 64px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 82px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+div#scroll-down::before, div#scroll-down::after{
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    border: 2px solid black;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border-top: transparent;
+    border-left: transparent;
+    animation: MoveArrow 1s ease-in-out infinite;
+}
+
+div#scroll-down::after{
+    top: 30%;
+    animation-delay: 0.3s;
+}
+
+@keyframes MoveArrow {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        top: 75%;
+    }
+}
