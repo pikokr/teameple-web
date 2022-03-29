@@ -10,16 +10,21 @@
     <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="css/report.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/button.css">
+    <script src="js/invite.js"></script>
 </head>
 <body>
-    <div class="main-container">
+    <div class="main-container child">
         <pre id="catchphrase">
 상상력과 노력만으로
 <pre1>한 걸음 더</pre1>
         </pre>
         <div id="scroll-down"></div>
     </div>
-    <div class="section-container">
+    <div class="section-container child">
         <div class="align-container">
             <section id="sefirot-section">
                 <div id="circle">
@@ -27,7 +32,7 @@
                 </div>
                 <p id="botName">세피로트</p>
                 <p id="botDescription">여러분이 가꾸어 나가는 지식의 나무, 디스코드에서.</p>
-                <p id="botInviteLink">초대하러가기 ></p>
+                <p id="botInviteLink" onclick="sefirot();">초대하러가기 ></p>
             </section>
             <section id="pia-section">
                 <div id="circle">
@@ -35,32 +40,44 @@
                 </div>
                 <p id="botName">피아</p>
                 <p id="botDescription">물은 피보다 맑지만, 그 안에 숨겨진 내면이 있을지 모른다.</p>
-                <p id="botInviteLink">초대하러가기 ></p>
+                <p id="botInviteLink" onclick="pia();">초대하러가기 ></p>
             </section>
         </div>
     </div><div id="clear-div"></div>
-    <div class="member-container">
-        <profileSection id="zeta-profile">
-            <name>제타</name>
-        </profileSection>
-        <profileSection id="bird-profile">
-            <name>졉동새</name>
-        </profileSection>
-        <profileSection id="dennislee-profile">
-            <name>데니스리</name>
-        </profileSection>
-        <profileSection id="kebab-profile">
-            <name>케밥</name>
-        </profileSection>
+    <div class="member-container child">
+        <div class="member-align-container-1">
+            <profileSection id="zeta-profile">
+                <img src="img/devProfileImg/zeta.png" alt="제타 프로필" id="devImgCircle">
+                <p id="name">제타</p>
+                <p id="statusMessage">세피로트와 피아의 개발자</p>
+            </profileSection>
+            <profileSection id="bird-profile">
+                <img src="img/devProfileImg/flipBronzeBird.png" alt="졉동새 프로필" id="devImgCircle">
+                <p id="name">졉동새</p>
+                <p id="statusMessage">goodflut로 바꿔주세요</p>
+            </profileSection>
+        </div>
+        <div class="member-align-container-2">
+            <profileSection id="dennislee-profile">
+                <img src="img/devProfileImg/dennislee.png" alt="데니스리 프로필" id="devImgCircle">
+                <p id="name">데니스리</p>
+                <p id="statusMessage">히히</p>
+            </profileSection>
+            <profileSection id="kebab-profile">
+                <img src="img/devProfileImg/kebab.png" alt="케밥 프로필" id="devImgCircle">
+                <p id="name">케밥</name>
+                <p id="statusMessage"></p>
+            </profileSection>
+        </div>
     </div>
-    <div class="teamReport-container">
+    <div class="teamReport-container child">
         <h2>팀에 문의하기</h2>
-        <button>문의하기</button>
+        <!-- use button css for DEERBUCKS.DESIGNING -->
+        <button class="custom-btn btn-13">문의하기</button>
     </div>
     <footer>
-        Copyright 2022. ZETA-A all rights reserved.
-        All picture cannot be copied without permission.
-        이메일 : open120488@gmail.com
+        <p>Copyright 2022. ZETA-A all rights reserved. All picture cannot be copied without permission.</p>
+        <p>e-mail : open120477@gmail.com</p>
     </footer>
 </body>
 </html>

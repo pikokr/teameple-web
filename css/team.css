@@ -1,0 +1,72 @@
+:root {
+    --image-size: 60px;
+}
+
+profileSection {
+    border: 1px solid none;
+    width: 280px;
+    height: 85px;
+    display: inline-flex;
+    box-shadow: 6px 10px 4px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+div.member-container {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+div.member-align-container-1 {
+    display: flex;
+}
+div.member-align-container-2 {
+    display: flex;
+}
+
+img#devImgCircle {
+    width: var(--image-size);
+    height: var(--image-size);
+    overflow: hidden;
+    display: inline-flex;
+    border-radius: 70%;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+p#name {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+profileSection#zeta-profile{
+    margin-right: 45px;
+    background: linear-gradient(276.49deg, #FF7A00 0%, rgba(0, 71, 255, 0.87) 100%);
+    border-radius: 10px;
+}
+
+profileSection#bird-profile {
+    background: linear-gradient(96.49deg, #FF0000 0%, #005666 100%);
+    border-radius: 10px;
+}
+
+profileSection#dennislee-profile{
+    margin-right: 45px;
+    background: linear-gradient(276.49deg, #CF00BA 0%, rgba(0, 175, 39, 0.87) 100%);
+    border-radius: 10px;
+}
+
+profileSection#kebab-profile{
+    background: linear-gradient(276.49deg, #33FF00 0%, #8F00FF 100%);
+    border-radius: 10px;
+}
+
+p#statusMessage {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 85px;
+    font-size: 16px;
+}

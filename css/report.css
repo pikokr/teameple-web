@@ -1,0 +1,11 @@
+div.teamReport-container {
+    display: grid;
+    place-items: center;
+    min-height: 90vh;
+}
+
+h2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+}

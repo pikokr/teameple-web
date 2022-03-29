@@ -1,0 +1,11 @@
+footer{
+    display: grid;
+    place-items: center;
+    min-height: 10vh;
+    background-color: #E2E2E2;
+}
+
+footer {
+    margin:0%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
