@@ -13,6 +13,7 @@ div.section-container {
     place-items: center;
     min-height: 100vh;
     display: grid;
+    background-color: rgb(32, 32, 32);
 }
 
 div.align-container {

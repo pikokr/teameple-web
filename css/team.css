@@ -18,6 +18,7 @@ div.member-container {
     display: grid;
     place-items: center;
     min-height: 100vh;
+    background-color: rgb(54, 57, 63);
 }
 
 div.member-align-container-1 {
@@ -44,23 +45,23 @@ p#name {
 
 profileSection#zeta-profile{
     margin-right: 45px;
-    background: linear-gradient(276.49deg, #FF7A00 0%, rgba(0, 71, 255, 0.87) 100%);
+    background: linear-gradient(276.49deg, #6AAFFF 0%, #1657FF 100%);
     border-radius: 10px;
 }
 
 profileSection#bird-profile {
-    background: linear-gradient(96.49deg, #FF0000 0%, #005666 100%);
+    background: linear-gradient(96.49deg, #FF0000 0%, #2F2F2F 100%);
     border-radius: 10px;
 }
 
 profileSection#dennislee-profile{
     margin-right: 45px;
-    background: linear-gradient(276.49deg, #CF00BA 0%, rgba(0, 175, 39, 0.87) 100%);
+    background: linear-gradient(276.49deg, #FFF627 0%, #0D972B 100%);
     border-radius: 10px;
 }
 
 profileSection#kebab-profile{
-    background: linear-gradient(276.49deg, #33FF00 0%, #8F00FF 100%);
+    background: linear-gradient(276.49deg, #FF7BEA 0%, #8703EF 100%);
     border-radius: 10px;
 }
 
